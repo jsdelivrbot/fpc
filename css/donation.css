@@ -35,7 +35,11 @@
 	position: absolute; 
 	top: 2px;
 	right: 6px; 
-	font-size: 20px
+	font-size: 20px;
+	z-index: 99999 !important;
+	width: 30px!important;
+	text-align: right;
+	padding-right: 5px;
 }
 
 .donation-text {
@@ -172,10 +176,5 @@
 	}
 	.donation-message {
 		font-size: 12px !important;
-	}
-	.donation-close-widget {
-		z-index: 99999;
-		width: 30px;
-		text-align: right;
 	}
 }
