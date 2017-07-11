@@ -76,7 +76,9 @@
 
 .donation {
 	width:133px !important; 
-	height:250px !important; 
+	height:250px !important;
+	display: block;
+	position: relative;
 }
 
 .donation-form {
@@ -140,9 +142,9 @@
 	}
 
 	#donation-box .donation-hidden {
-	    height: 166px;
-	    width: 225px;
-	    right: -130px;
+	    height: 143px;
+		width: 120px;
+	    right: 0;
 	}
 
 	.donation-input {
@@ -152,5 +154,28 @@
 	#donation-box button {
 	    font-size: 11px !important;
 	    padding: 1px 6px !important;
+	}
+
+	.donation-image {
+		width: 48% !important;
+	}
+
+	.donation {
+		display: initial;
+	}
+}
+
+@media (max-width:414px) {
+	#donation-box .donation-hidden {
+		height: 122px;
+		width: 100px;
+	}
+	.donation-message {
+		font-size: 12px !important;
+	}
+	.donation-close-widget {
+		z-index: 99999;
+		width: 30px;
+		text-align: right;
 	}
 }
