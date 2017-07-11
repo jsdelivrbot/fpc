@@ -52,7 +52,7 @@
     }
 
     //  isNaN(textamount) == false <- es numero
-	var donate = document.getElementById('donate').onclick = function() {
+	/*var donate = document.getElementById('donate').onclick = function() {
 		var textamount = document.getElementById('customamount').value;
 		if(amount != 0 && textamount == '') {
 			if(isNaN(amount) == false) {
@@ -75,4 +75,4 @@
                 }
 
         }
-	};
+	};*/
