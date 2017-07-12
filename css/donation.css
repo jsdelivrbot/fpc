@@ -122,6 +122,8 @@
 
 .donation-image {
 	width: 60% !important;
+	display: block;
+	margin: 0 auto !important;
 }
 .donation-block {
 	display: block !important;
