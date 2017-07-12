@@ -20,7 +20,8 @@
  	var amountclass 	= document.getElementsByClassName('donate-amount');
 
     closewidget.onclick = function() {
-        document.getElementById('donation-box').remove();
+        var element = document.getElementById('donation-box');
+        element.parentNode.removeChild(element);
     }
 
     for(var i =0; i < currencyclass.length; i++) {
